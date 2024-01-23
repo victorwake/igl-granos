@@ -651,7 +651,7 @@ nav a{
 @media (max-width: 768px){
     #menu-icon{
         display: block;
-        margin-right: 8rem;
+        margin-right: 4rem;
 
     }
     .navbar{
@@ -721,7 +721,7 @@ nav a{
     }
 
     #floatingDiv{
-        right: 30%;
+        right: 10%;
         top: 2rem;
         transform: translateX(-70%);
     }
