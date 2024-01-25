@@ -379,8 +379,8 @@ nav a{
 }
 
 #services{
-    height: auto;
-    padding: 7rem 0 0;
+    min-height: 100vh;
+    padding: 10rem 09% 2rem;
 }
 
 .products-box{
@@ -768,6 +768,10 @@ nav a{
 }
 
 @media (max-width: 617px){
+    #services{
+        height: auto;
+    }
+
     #banner{
         padding: 8rem 0 0;
     }
@@ -782,12 +786,20 @@ nav a{
         font-size: 50%;
     }
 
+    #services{
+        height: auto;
+    }
+
     .contacto form .input-box input{
         width: 100%;
     }
 }
 
 @media (max-width: 365px){
+    #services{
+        height: auto;
+    }
+
     .home-img img{
         width: 60vw;
     }

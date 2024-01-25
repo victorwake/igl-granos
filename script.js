@@ -117,6 +117,19 @@ productsTitle = document.getElementById("products-title");
 var contacMy = document.getElementById("heading");
 var contacSpan = document.getElementById("heading-span");
 var certificationsTitle = document.getElementById("certifications-title");
+var crudeSunflower = document.getElementById("crude-sunflower");
+var refinedSunflowerOil = document.getElementById("refined-sunflower-oil");
+var highOleicCrude = document.getElementById("high-oleic-crude"); 
+var sunflowerOil = document.getElementById("sunflower-oil"); 
+var chighOleicRefined = document.getElementById("chigh-oleic-refined"); 
+var sunflowerExpeller = document.getElementById("sunflower-expeller"); 
+var sunflowerFlour = document.getElementById("sunflower-flour"); 
+var sunflowerSeed = document.getElementById("sunflower-seed"); 
+var soybean = document.getElementById("soybean"); 
+var refinedSoybeanOil = document.getElementById("refined-soybean-oil"); 
+var soybeanExpeller = document.getElementById("soybean-expeller"); 
+var soybeanFlour = document.getElementById("soybean-flour"); 
+var flaxseed = document.getElementById("flaxseed"); 
 
 var typed = new Typed(".multiple-texto", {
   strings: ["organic produce", "grains and by-products"],
@@ -142,6 +155,20 @@ var selectIdioma = cambiarTextoBtn.querySelector(".language-select");
 selectIdioma.addEventListener("change", function () {
   var idioma = this.value;
   if (idioma === "ES") {
+    //PRODUCTOS
+    crudeSunflower.innerText = "Aceite crudo de girasol";
+    refinedSunflowerOil.innerText = "Aceite refinado de girasol";
+    highOleicCrude.innerText = "Aceite crudo alto";
+    sunflowerOil.innerText = "oleico de girasol";
+    chighOleicRefined.innerText = "Aceite refinado alto";
+    sunflowerExpeller.innerText = "Expeller de girasol";
+    sunflowerFlour.innerText = "Harina de girasol";
+    sunflowerSeed.innerText = "Semilla de girasol";
+    soybean.innerText = "Poroto de soja";
+    refinedSoybeanOil.innerText = "Aceite refinado de soja";
+    soybeanExpeller.innerText = "Expeller de soja";
+    soybeanFlour.innerText = "Harina de soja";
+    flaxseed.innerText = "Semilla de lino";
     // Cambiar el texto al español
     acercaDe.innerText = "Nuestra compañía";
     servis.innerText = "Productos";
@@ -163,6 +190,20 @@ selectIdioma.addEventListener("change", function () {
     // Cambiar los strings en la configuración de Typed.js al español
     typed.strings = ["productos orgánicos.", "granos y subproductos"];
   } else {
+      //PRODUCTOS
+      crudeSunflower.innerText = "Crude sunflower oil";
+      refinedSunflowerOil.innerText = "Refined sunflower oil";
+      highOleicCrude.innerText = "High oleic crude";
+      sunflowerOil.innerText = "sunflower oil";
+      chighOleicRefined.innerText = "High oleic refined";
+      sunflowerExpeller.innerText = "Sunflower expeller";
+      sunflowerFlour.innerText = "Sunflower flour";
+      sunflowerSeed.innerText = "Sunflower seed";
+      soybean.innerText = "Soybean";
+      refinedSoybeanOil.innerText = "Refined soybean oil";
+      soybeanExpeller.innerText = "Soybean expeller";
+      soybeanFlour.innerText = "Soybean flour";
+      flaxseed.innerText = "Flaxseed";
     // Cambiar el texto al inglés
     inicio.innerText = "Home";
     acercaDe.innerText = "Our company";
