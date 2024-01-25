@@ -378,6 +378,20 @@ nav a{
     margin: 2rem 0 3rem;
 }
 
+.products-box{
+    /* background: var(--second-bg-color); */
+    border-radius: 5px;
+    text-align: center;
+    transition: .5s ease;
+}
+
+.products-box img{
+    border-radius: 5px 5px 0 0;
+}
+
+.br-products{
+    padding-bottom: 20px;
+}
 
 .services h2{
     margin-bottom: 5rem;
@@ -403,7 +417,7 @@ nav a{
 
 .services-container .services-box:hover{
     border-color: var(--main-color-cel);
-    transform: scale(1.02);
+    /* transform: scale(1.02); */
 }
 
 .services-box i{
