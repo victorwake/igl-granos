@@ -215,11 +215,15 @@ selectIdioma.addEventListener("change", function () {
     contacMy.innerText = "Contact ";
     contacSpan.innerText = " Us!";
     certificationsTitle.innerText = "Certifications";
-    (home_p.innerText = `IGL Granos S.A. was established in 2005, initially dedicated to the brokerage of cereals and oilseeds. 
-    Starting in 2018, it began its activity as a processor and exporter of agricultural raw materials, 
-    focusing on organic products. Currently, the company focuses its attention on the provision of organic products, 
-    both grains and by-products, obtained from its fazon agreement with MBS Agroindustrias S.R.L. From 2020, 
-    its strategic alliance with InterContinental Foods LLC allows it fluid access to the North American market.`),
+    home_p.innerText = `IGL was established in 2005 as cereal and oilseed broker.
+    Throughout the years we began producing in our own ranches and further 
+    processing our raw material thus transforming into edible vegetable oils and flours.
+    In 2018, along with our own production, we associated fellow ranchers and decided to go Organic. 
+    We began reaching international markets ensuring full traceability and full guarantee on every product we exported.
+    Currently, the company focuses its activities on the provision of , pulses and by-products such as vegetable oils and flours.
+    Our exclusive agreement with MBS Agroindustries, enables our full Organic processing. 
+    Our strategic partnership with InterContinental Foods in the US, 
+    allows us a solid representation in the North American market.`,
       typed.reset(); // Reiniciar la animación
     // Cambiar los strings en la configuración de Typed.js al inglés
     typed.strings = ["organic produce", "grains and by-products"];

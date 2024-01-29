@@ -309,7 +309,7 @@ nav a{
         transform: translateY(0);
     }
     50%{
-        transform: translateY(-2.4rem);
+        transform: translateY(-0.8rem);
     }
     100%{
         transform: translateY(0);
@@ -612,6 +612,12 @@ nav a{
     font-size: 1.6rem;
 }
 
+.footer-iconTop{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .footer-iconTop a{
     display: inline-flex;
     justify-content: center;
@@ -691,7 +697,7 @@ nav a{
 @media (max-width: 768px){
     #menu-icon{
         display: block;
-        margin-right: 10rem;
+        margin-right: 5rem;
 
     }
     .navbar{
@@ -761,7 +767,7 @@ nav a{
     }
 
     #floatingDiv{
-        right: 30%;
+        right: 10%;
         top: 2rem;
         transform: translateX(-70%);
     }
