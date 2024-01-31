@@ -1,3 +1,24 @@
+let isSafari = navigator.userAgent.match(/Safari/i);
+
+if (isSafari) {
+  /// No aplicar animaciones en Safari
+} else {
+  ScrollReveal({
+    reset: true,
+    distance: "80px",
+    duration: 2000,
+    delay: 200,
+  });
+  
+  ScrollReveal().reveal(".home-content, .heading ", { origin: "top" });
+  ScrollReveal().reveal(
+    ".home-img, .services-container, .porfolio-box, contacto form",
+    { origin: "botton" }
+  );
+  ScrollReveal().reveal(".home-content h1, .about-img", { origin: "left" });
+  ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
+}
+
 /*Menu hamburguesa*/
 
 let menuIcon = document.querySelector("#menu-icon");
@@ -40,20 +61,7 @@ window.onscroll = () => {
 };
 
 // scroll reveal, sirve para que los elementos con animacion aparezcan cuando se hace scroll
-ScrollReveal({
-  reset: true,
-  distance: "80px",
-  duration: 2000,
-  delay: 200,
-});
 
-ScrollReveal().reveal(".home-content, .heading ", { origin: "top" });
-ScrollReveal().reveal(
-  ".home-img, .services-container, .porfolio-box, contacto form",
-  { origin: "botton" }
-);
-ScrollReveal().reveal(".home-content h1, .about-img", { origin: "left" });
-ScrollReveal().reveal(".home-content p, .about-content", { origin: "right" });
 
 // Función para cambiar el tema
 function toggleTheme() {
@@ -121,6 +129,8 @@ var crudeSunflower = document.getElementById("crude-sunflower");
 var refinedSunflowerOil = document.getElementById("refined-sunflower-oil");
 var highOleicCrude = document.getElementById("high-oleic-crude"); 
 var sunflowerOil = document.getElementById("sunflower-oil"); 
+var oil = document.getElementById("oil");
+var oil2 = document.getElementById("oil2");
 var chighOleicRefined = document.getElementById("chigh-oleic-refined"); 
 var sunflowerExpeller = document.getElementById("sunflower-expeller"); 
 var sunflowerFlour = document.getElementById("sunflower-flour"); 
@@ -157,9 +167,11 @@ selectIdioma.addEventListener("change", function () {
   var idioma = this.value;
   if (idioma === "ES") {
     //PRODUCTOS
-    crudeSunflower.innerText = "Aceite crudo de girasol";
-    refinedSunflowerOil.innerText = "Aceite refinado de girasol";
+    crudeSunflower.innerText = "Aceite crudo de";
+    refinedSunflowerOil.innerText = "Aceite refinado de";
     highOleicCrude.innerText = "Aceite crudo alto";
+    oil.innerText = "girasol";
+    oil2.innerText = "girasol";
     sunflowerOil.innerText = "oleico de girasol";
     chighOleicRefined.innerText = "Aceite refinado alto";
     sunflowerExpeller.innerText = "Expeller de girasol";
@@ -193,10 +205,12 @@ selectIdioma.addEventListener("change", function () {
     typed.strings = ["productos orgánicos.", "granos y subproductos"];
   } else {
       //PRODUCTOS
-      crudeSunflower.innerText = "Crude sunflower oil";
-      refinedSunflowerOil.innerText = "Refined sunflower oil";
+      crudeSunflower.innerText = "Crude sunflower";
+      refinedSunflowerOil.innerText = "Refined sunflower";
       highOleicCrude.innerText = "High oleic crude";
       sunflowerOil.innerText = "sunflower oil";
+      oil.innerText = "oil";
+      oil2.innerText = "oil";
       chighOleicRefined.innerText = "High oleic refined";
       sunflowerExpeller.innerText = "Sunflower expeller";
       sunflowerFlour.innerText = "Sunflower flour";
