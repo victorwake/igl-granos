@@ -408,12 +408,13 @@ nav a{
     transition: .5s ease;
 }
 
+
 .products-box img{
     border-radius: 5px 5px 0 0;
 }
 
 .br-products{
-    padding-bottom: 20px;
+    padding-bottom: 2px;
 }
 
 .services h2{
