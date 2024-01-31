@@ -130,6 +130,7 @@ var refinedSoybeanOil = document.getElementById("refined-soybean-oil");
 var soybeanExpeller = document.getElementById("soybean-expeller"); 
 var soybeanFlour = document.getElementById("soybean-flour"); 
 var flaxseed = document.getElementById("flaxseed"); 
+var subTitleCertificate = document.getElementById("title-certification");
 
 var typed = new Typed(".multiple-texto", {
   strings: ["organic produce", "grains and by-products"],
@@ -180,6 +181,7 @@ selectIdioma.addEventListener("change", function () {
     contacMy.innerText = "Contáctenos";
     contacSpan.innerText = "";
     certificationsTitle.innerText = "Certificaciones";
+    subTitleCertificate.innerText = "IGL Granos S.A. cuenta con programas de certificación de producciones orgánicas diferenciados según el mercado final donde se comercializará el producto:";
     home_p.innerText = `IGL Granos S.A. fue constituida en 2005, dedicándose inicialmente al corretaje de cereales y oleaginosas. 
       A partir del 2018 inicia su actividad de industrializador y exportador de materias primas agrícolas, centrándose en productos orgánicos.
        En la actualidad la empresa concentra su atención en la provisión de productos orgánicos, tanto granos como subproductos,
@@ -215,6 +217,7 @@ selectIdioma.addEventListener("change", function () {
     contacMy.innerText = "Contact ";
     contacSpan.innerText = " Us!";
     certificationsTitle.innerText = "Certifications";
+    subTitleCertificate.innerText = "IGL Granos S.A. It has organic production certification programs differentiated according to the final market where the product will be marketed:";
     home_p.innerText = `IGL was established in 2005 as cereal and oilseed broker.
     Throughout the years we began producing in our own ranches and further 
     processing our raw material thus transforming into edible vegetable oils and flours.
