@@ -383,7 +383,7 @@ nav a{
     padding: 10rem 09% 2rem;
 }
 
-.services {
+/* .services {
     position: relative;
 }
 
@@ -398,8 +398,8 @@ nav a{
     bottom: 0;
     left: 0;
     background-image: url(./img/productos.jpg);
-    opacity: 0.5; /* Ajusta este valor para cambiar el nivel de transparencia */
-}
+    opacity: 0.5;
+} */
 
 .products-box{
     /* background: var(--second-bg-color); */
@@ -529,10 +529,6 @@ nav a{
     transition: .5s ease;
 }
 
-/* .certifications-box:hover .certifications-layer{
-    transform: translateY(0);
-} */
-
 .certifications-layer h4{
     font-size: 3rem;
 }
@@ -584,46 +580,7 @@ nav a{
     margin: .7rem 0;
     transition: .5s;
 }
-/* .contacto form {
-    max-width: 70rem;
-    margin: 1rem auto;
-    text-align: center;
-    margin-bottom: 3rem;
-}
 
-.contacto form .input-box{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.contacto form .input-box input,
-.contacto form textarea{
-    width: 100%;
-    padding: 1.5rem;
-    font-size: 1.6rem;
-    color: var(--text-color);
-    border: .2rem solid var(--main-color-cel);
-    background: var(--second-bg-color);
-    border-radius: .8rem;
-    margin: .7rem 0;
-    transition: .5s;
-}
-
-.contacto form .input-box input{
-    width: 49%;
-}
-
-.contacto form textarea{
-    width: 100%;
-    min-height: 15rem;
-    resize: none;
-}
-
-.contacto form .btn{
-    margin-top: 2rem;
-    cursor: pointer;
-} */
 
 .footer{
     display: flex;
@@ -833,6 +790,9 @@ nav a{
 
     .contacto form .input-box input{
         width: 100%;
+    }
+    .certifications-container{
+        grid-template-columns: 1fr;
     }
 }
 
