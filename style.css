@@ -773,9 +773,9 @@ nav a{
     #banner{
         padding: 8rem 0 0;
     }
-    .pcertifications-container{
-        grid-template-columns: 1fr;
-        margin: 5%;
+
+    .certifications-box{
+        width: 150px;
     }
 }
 
@@ -790,9 +790,6 @@ nav a{
 
     .contacto form .input-box input{
         width: 100%;
-    }
-    .certifications-container{
-        grid-template-columns: 1fr;
     }
 }
 
